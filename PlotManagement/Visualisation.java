@@ -37,7 +37,7 @@ class Visualisation {
         this.sort = sort;
     }
 
-    public void showStory() {
+    public Object showStory() {
         
     }
 
