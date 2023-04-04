@@ -1,3 +1,5 @@
+package IllustratorComponent;
+
 import java.util.Dictionary;
 
 public class IllustratorProfile {

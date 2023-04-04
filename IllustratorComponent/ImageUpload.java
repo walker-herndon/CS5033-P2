@@ -1,3 +1,5 @@
+package IllustratorComponent;
+
 public class ImageUpload {
 
     String imageType;

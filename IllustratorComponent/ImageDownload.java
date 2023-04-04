@@ -1,3 +1,5 @@
+package IllustratorComponent;
+
 public class ImageDownload {
 
     int size;

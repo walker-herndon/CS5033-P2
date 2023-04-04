@@ -1,3 +1,5 @@
+package IllustratorComponent;
+
 public class ConfirmServices {
 
     int cost;
