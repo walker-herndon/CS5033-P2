@@ -6,7 +6,7 @@ import UserComponent.User;
 public class Project {
     int id; 
     String title; 
-    Illustration illutrations; 
+    Image illutrations; 
     String illustrationDescription; 
     Permissions permissions;  
     User creator; 
@@ -22,12 +22,12 @@ public class Project {
         return "";
     }
 
-    public boolean setIllustration(Illustration i) {
+    public boolean setIllustration(Image i) {
         return true; 
     }
 
-    public Illustration getIllustration() {
-        Illustration i = new Illustration(); 
+    public Image getIllustration() {
+        Image i = new Image(); 
         // gets illustrations for project
         return i; 
     }
