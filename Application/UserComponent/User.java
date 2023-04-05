@@ -5,6 +5,7 @@ public class User {
     String username;
     byte[] passwordHash;
     String email;
+    String phoneString;
     boolean subscribed;
 
     public int getUserId() {
@@ -33,6 +34,10 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPhoneString() {
+        return phoneString;
     }
 
     public boolean isSubscribed() {

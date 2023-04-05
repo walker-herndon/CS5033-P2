@@ -3,8 +3,8 @@ package UserComponent;
 public class UserManager {
     DataSource dataSource;
 
-    public User registerUser(String username, String password, String email) {
-        if(confirmUserDetails){
+    public User registerUser(String username, String password, String email, String phoneString) {
+        if (confirmUserDetails) {
             return new User();
         }
     }
@@ -13,8 +13,8 @@ public class UserManager {
         return new User();
     }
 
-    public boolean confirmUserDetails(){
-
+    public boolean confirmUserDetails() {
+        return true / false;
     }
 
     public void updateUser(User user) {
