@@ -23,15 +23,15 @@ class Editor {
         this.plot = plot;
     }
 
-    public boolean addChapter(Chapters prev, Chapters next) {
+    public boolean addChapter(int prev, int next) {
         return true;
     }
 
-    public boolean removeChapter(Chapters chapter) {
+    public boolean removeChapter(int chapter) {
         return true;
     } 
 
-    public boolean editChapter(Chapters old, Chapters edit) {
+    public boolean editChapter(int chapter, Chapters edit) {
         return true;
     }
 
