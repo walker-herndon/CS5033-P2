@@ -37,11 +37,11 @@ class Visualisation {
         this.sort = sort;
     }
 
-    public Object displayChapters() {
+    public Object showPlot() {
         return null;
     }
 
-    public Object displayStory(Chapter story) {
+    public Object showStory(int branch) {
         return null;
     }
 
