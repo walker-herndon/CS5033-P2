@@ -9,6 +9,7 @@ public class ConfirmServices {
     int numberOfImages;
     User user;
 
+    //function for a brief description of the commision
     public boolean ServiceToBeProvided(User user, String description){
 
         //true if agrees
