@@ -3,6 +3,8 @@
  */
 package PlotManagement;
 
+import java.util.ArrayList;
+
 class VersionControl {
 
     private Plot plot;
@@ -23,28 +25,27 @@ class VersionControl {
         this.plot = plot;
     }
 
-    public Chapters pull(int chapterID) {
-        //Returns the latest version of the chapters under chapterID
-        return null;
+    public ArrayList<Chapters> pull() {
+        return this.plot.getChapters();
     }
 
     public boolean push(String commitMsg, Chapters local) {
-        //Tries to push local changes to remote version, if conflicts - prompt merge or branch
+        //Tries to push local changes to remote version, if conflicts - prompt (local) merge or branch
         return true;
     }
 
-    public boolean merge(Chapters local, int chapterID) {
-        //Merge local chapter with remote chapter (under chapterID)
+    public boolean merge(int branch1, int branch2) {
+        //Merge two (remote) branches using their chapter ID's
         return true;
     }
 
-    public boolean branch(int chapterID) {
-        //Create a branch from chapter under chapterID
+    public boolean branch(int chapter, Chapters branch) {
+        //Branch from chapter (ID) with local branch
         return true;
     }
 
-    public boolean revert(int chapterID) {
-        //Revert a change made to chapter under chapterID (pushes old change)
+    public boolean revert(int chapter) {
+        //Revert a change made to chapter using its ID (pushes old change)
         return true;
     }
 
