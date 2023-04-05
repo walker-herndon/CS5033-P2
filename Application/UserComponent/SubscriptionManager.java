@@ -1,7 +1,5 @@
 package UserComponent;
 
-import IllustrationComponent.Illustration;
-
 public class SubscriptionManager {
     double price;
     int duration;
@@ -24,5 +22,4 @@ public class SubscriptionManager {
         return user.isSubscribed();
     }
 
-    public void orderIllustration(User user, )
 }
