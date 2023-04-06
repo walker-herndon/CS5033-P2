@@ -3,6 +3,11 @@ package ProjectManagement;
 import PublisherApis;
 
 public class Distribution {
+    
+    //lists potential publishers from the APIs available
+    public List listPublishers(){
+        return PublisherApis.listPublishers;
+    }    
 
     public File export(Project p, Format f) {
         // export project to desktop of client
