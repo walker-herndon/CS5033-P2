@@ -22,4 +22,8 @@ public class UserManager {
 
     public void updatePassword(User user, String password) {
     }
+    
+    public void remindPremiumUser(){
+        
+    }
 }
