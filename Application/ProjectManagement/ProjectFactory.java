@@ -11,5 +11,9 @@ public class ProjectFactory {
     public boolean deleteProject (Project p) {
         return true;
     }
+    
+    public file generateMetaData(Project p){
+        return p.data   
+    }
 
 }
