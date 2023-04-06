@@ -47,8 +47,4 @@ public class User {
     public void setSubscription(boolean subscribed) {
         this.subscribed = subscribed;
     }
-
-    public boolean singleSession() {
-        return true;
-    }
 }
