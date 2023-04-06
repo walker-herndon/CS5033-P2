@@ -1,18 +1,19 @@
 package Presentation;
+
 import javax.swing.*;
 
 public class ProjectDisplay extends JFrame {
-    // view project details 
+    // view project details
     // send to publisher
     // export project
-    
+
     public ProjectDisplay() {
         JComponent navigation = new JComponent() {
             // navigation logic
         };
 
         JComponent projectView = new JComponent() {
-            // project information 
+            // project information including title, description, and illustrations
         };
 
         JButton findProjectIllustrator = new JButton();
@@ -22,7 +23,7 @@ public class ProjectDisplay extends JFrame {
         };
 
         JComponent exportProject = new JComponent() {
-            // export logic 
+            // export logic
         };
 
         setVisible(true);

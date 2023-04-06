@@ -23,10 +23,11 @@ public class UserManager {
     public void updateUser(User user) {
     }
 
-    public void updatePassword(User user, String password) {
-    }
-
     public void remindPremiumUser() {
 
+    }
+
+    public boolean singleSession(User user) {
+        return true / false;
     }
 }
