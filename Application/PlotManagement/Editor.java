@@ -25,6 +25,14 @@ class Editor {
         this.plot = plot;
     }
 
+    public int getUserID() {
+        return this.userID;
+    }
+
+    public void setUserID(int userID) {
+        this.userID = userID;
+    }
+
     public boolean addChapter(int prev, int next) {
         return true;
     }
