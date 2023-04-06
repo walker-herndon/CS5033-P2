@@ -6,13 +6,15 @@ package PlotManagement;
 class Editor {
 
     private Plot plot;
+    private int userID;
 
     public Editor() {
-        this(null);
+        this(null, -1);
     }
 
-    public Editor(Plot plot) {
+    public Editor(Plot plot, int userID) {
         this.plot = plot;
+        this.userID = userID;
     }
 
     public Plot getPlot() {

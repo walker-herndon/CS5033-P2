@@ -25,26 +25,26 @@ class VersionControl {
         this.plot = plot;
     }
 
-    public ArrayList<Chapters> pull() {
+    public ArrayList<Chapters> pull(int userID) {
         return this.plot.getChapters();
     }
 
-    public boolean push(String commitMsg, Chapters local) {
+    public boolean push(int userID, String commitMsg, Chapters local) {
         //Tries to push local changes to remote version, if conflicts - prompt (local) merge or branch
         return true;
     }
 
-    public boolean merge(int branch1, int branch2) {
+    public boolean merge(int userID, int branch1, int branch2) {
         //Merge two (remote) branches using their chapter ID's
         return true;
     }
 
-    public boolean branch(int chapter, Chapters branch) {
+    public boolean branch(int userID, int chapter, Chapters branch) {
         //Branch from chapter (ID) with local branch
         return true;
     }
 
-    public boolean revert(int chapter) {
+    public boolean revert(int userID, int chapter) {
         //Revert a change made to chapter using its ID (pushes old change)
         return true;
     }
