@@ -16,10 +16,12 @@ public class UserManager {
     public void logoutUser(User user) {
     }
 
+    // Used to verify login and register details
     public boolean confirmUserDetails() {
         return true / false;
     }
 
+    // Updates user info in database
     public void updateUser(User user) {
     }
 
@@ -27,6 +29,7 @@ public class UserManager {
 
     }
 
+    // Checks if a user is already logged in
     public boolean singleSession(User user) {
         return true / false;
     }
