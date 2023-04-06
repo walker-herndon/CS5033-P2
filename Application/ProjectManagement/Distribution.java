@@ -25,6 +25,7 @@ public class Distribution {
             return true;
         }
         else{
+            trigger(API failing warning)
             return false;   
         }    
     }
