@@ -12,6 +12,8 @@ public class Project {
     User creator; 
     Plot plot; 
     
+    data = [title, illustrations, creator, plot]
+    
     public boolean setTitle(String t) {
         this.title = t; 
         // handles logic to update title in database
