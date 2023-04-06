@@ -13,6 +13,9 @@ public class UserManager {
         return new User();
     }
 
+    public void logoutUser(User user) {
+    }
+
     public boolean confirmUserDetails() {
         return true / false;
     }
@@ -22,8 +25,8 @@ public class UserManager {
 
     public void updatePassword(User user, String password) {
     }
-    
-    public void remindPremiumUser(){
-        
+
+    public void remindPremiumUser() {
+
     }
 }
